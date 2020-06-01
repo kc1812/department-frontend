@@ -1,0 +1,96 @@
+.LoginContainer {
+    width: 100%;
+    background: #f9f9f9;
+    height: 100%;
+    padding: 15px;
+}
+
+.LoginFormContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 1px 1px 4px #eee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border: 2px solid #eee;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+}
+
+.LoginHeight {
+    height: 70%;
+}
+
+.RegisterHeight {
+    height: 95%;
+}
+
+.LoginForm {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    /* box-shadow: 0 2px 3px #ccc; */
+    /* border: 1px solid #eee; */
+    /* padding: 16px; */
+}
+
+.ImageContainer {
+    height: 120px;
+    margin: 20px 0;
+}
+
+.Image {
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.Heading {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.ChangeFormType {
+    cursor: pointer;
+    font-size: small;
+    display: inline-block;
+    margin: 0 50% 0 45%;
+}
+
+.ErrorVisible {
+    color: #dc3545 ; 
+}
+
+.ErrorHide {
+    visibility: none ; 
+}
+
+@media (max-width: 450px) {
+    .LoginHeight {
+        height: 100%;
+    }
+    
+    .RegisterHeight {
+        height: 100%;
+    }
+    .LoginContainer {
+        background: #fff;
+    }
+    .LoginFormContainer {
+       
+        box-shadow: none;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        border: none;
+    }
+}

@@ -1,0 +1,10 @@
+.ContentWithToolbar {
+    padding-top: 92px;
+    height: 100vh;
+}
+
+.ContentWithoutToolbar {
+    margin-top: 0px;
+    height: 100vh
+}
+
